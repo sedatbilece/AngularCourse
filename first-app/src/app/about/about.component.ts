@@ -10,4 +10,5 @@ styleUrl:"./about.component.css"
 export class AboutComponent{
   currency = '$';
   title = "test project";
+  someList : string[] = ["test1","test2","test3","test4","test5"]
 }

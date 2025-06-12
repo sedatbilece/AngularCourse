@@ -1,2 +1,14 @@
 <h1>about comp</h1>
 {{title}}
+
+ <hr>
+ <h5>yeni loop yöntemi</h5>
+<ul>
+    @for(item of someList;track $index){
+         <li> Index : {{$index}} | Data : {{item}} | isFirst : {{$first}} | isLast : {{$last}} </li>
+    }
+    @empty {<!-- loop listesinde eleman yoksa scope'a girer -->
+        <h5>liste suan bos</h5>
+    }
+</ul>
+<hr>

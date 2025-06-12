@@ -8,5 +8,6 @@ styleUrl:"./about.component.css"
 })
 
 export class AboutComponent{
-
+  currency = '$';
+  title = "test project";
 }

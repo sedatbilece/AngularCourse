@@ -1,0 +1,13 @@
+<p>conditions works!</p>
+
+<button (click)="show(1)" >Show first item</button>
+<button (click)="show(2)" >Show second item</button>
+<button (click)="show()" >gizle</button>
+
+@if(showFirstItemCondition){
+    <p style="background-color: red;"> ilk yazı</p>
+}
+
+@if(showSecondItemCondition){
+    <p  style="background-color: rgb(38, 0, 255);"> ikinci yazı</p>
+}

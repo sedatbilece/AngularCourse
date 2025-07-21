@@ -26,7 +26,7 @@ export const routes: Routes = [
                 component:Page3Component
             },
         ]
-    },
+    }, 
     {
         path:"yeni",
         component:YeniComponent
